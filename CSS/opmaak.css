@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
+
+.infoprofiel{
+  margin: 1%;
+  padding: 5%;
+}
+
 p{
   font-family: 'Muli', sans-serif;
   text-decoration: none;
@@ -9,11 +15,13 @@ a{
   font-family: 'Muli', sans-serif;
   text-decoration: none;
   color: black;
+  transition: 0.3s;
 }
 
 a:hover{
   color: #ff2600;
   text-shadow: 0.7px 0.7px black;
+  transition: 0.3s;
 }
 
 h1{
@@ -132,7 +140,7 @@ img{
 }
 
 .hobbys {
-  color: white;
+    color: white;
     position: absolute;
     left: 3.5%;
     top: 131.5%;
@@ -188,4 +196,50 @@ img{
     top: 142.5%;
 }
 
+.zwibbee{
+  position:absolute;
+  left:0px;
+  top:400px;
+  z-index:-1;
+  float: bottom;
+}
+
+.jurjen{
+  position: absolute;
+  left:7%;
+  top: 130%;
+  right: 7%;
+}
+
+.ik{
+  position: absolute;
+  top: 150%;
+}
+
+
+.YT{
+  font-family: 'Muli', sans-serif;
+  text-decoration: none;
+  color: #FF0000;
+  transition: 0.3s;
+}
+
+.YT:hover{
+  color: #FF0000;
+  text-shadow: 0.7px 0.7px black;
+  transition: 0.3s;
+}
+
+.twitch{
+  font-family: 'Muli', sans-serif;
+  text-decoration: none;
+  color: #6034b1;
+  transition: 0.3s;
+}
+
+.twitch:hover{
+  color: #6034b1;
+  text-shadow: 0.7px 0.7px black;
+  transition: 0.3s;
+}
 /*Copyright © 2017 Otto All rights reserved. | Terms and Conditions | Privacy Policy*/
